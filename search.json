@@ -2,8 +2,8 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "R-fun-API",
+    "title": "tools:::funAPI() (rev: 86704)",
     "section": "",
-    "text": "reactable::reactable(tools:::funAPI(), defaultPageSize = 30)"
+    "text": "tools:::funAPI() (rev: 86704)"
   }
 ]
