@@ -1,7 +1,11 @@
 ---
-title: "R-fun-API"
+# TODO: can I pass the result of R.version$`svn rev` to title?
 ---
 
+# `tools:::funAPI()` (rev: `{r} R.version[["svn rev"]]`)
+
 ```{r}
-reactable::reactable(tools:::funAPI(), defaultPageSize = 30)
+#| echo: false
+
+reactable::reactable(tools:::funAPI(), searchable = TRUE, defaultPageSize = 30)
 ```
