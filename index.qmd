@@ -1,0 +1,7 @@
+---
+title: "R-fun-API"
+---
+
+```{r}
+reactable::reactable(tools:::funAPI(), defaultPageSize = 30)
+```

@@ -1,0 +1,18 @@
+project:
+  type: website
+
+website:
+  title: "R-fun-API"
+  navbar:
+    left:
+      - href: index.qmd
+        text: fun API
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
