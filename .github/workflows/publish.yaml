@@ -15,9 +15,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install reactable
-        uses: r-lib/actions/setup-r-dependencies@v2
-        with:
-          extra-packages: any::reactable
+        run: |
+          Rscript -e 'install.packages("reactable")'
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
