@@ -4,6 +4,6 @@
     "href": "index.html",
     "title": "R-fun-API",
     "section": "",
-    "text": "#reactable::reactable(tools:::funAPI(), defaultPageSize = 30)"
+    "text": "reactable::reactable(tools:::funAPI(), defaultPageSize = 30)"
   }
 ]
