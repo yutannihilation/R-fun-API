@@ -3,13 +3,5 @@ title: "R-fun-API"
 ---
 
 ```{r}
-#| include: false
-
-if (!require("reactable", quietly = TRUE)) {
-  install.packages("reactable")
-}
-```
-
-```{r}
 reactable::reactable(tools:::funAPI(), defaultPageSize = 30)
 ```
