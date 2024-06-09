@@ -9,7 +9,6 @@
 
 reactable::reactable(
   tools:::funAPI(),
-  searchable = TRUE,
   filterable = TRUE,
   defaultPageSize = 30
 )
