@@ -7,5 +7,10 @@
 ```{r}
 #| echo: false
 
-reactable::reactable(tools:::funAPI(), searchable = TRUE, defaultPageSize = 30)
+reactable::reactable(
+  tools:::funAPI(),
+  searchable = TRUE,
+  filterable = TRUE,
+  defaultPageSize = 30
+)
 ```
