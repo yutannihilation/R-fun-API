@@ -2,8 +2,8 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "tools:::funAPI() (rev: 86902)",
+    "title": "tools:::funAPI() (rev: 86903)",
     "section": "",
-    "text": "tools:::funAPI() (rev: 86902)\ncontext: [Rd] clarifying and adjusting the C API for R\n(api = stable API, eapi = experimental API, emb = embedding API)"
+    "text": "tools:::funAPI() (rev: 86903)\ncontext: [Rd] clarifying and adjusting the C API for R\n(api = stable API, eapi = experimental API, emb = embedding API)"
   }
 ]
